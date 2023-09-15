@@ -1,4 +1,5 @@
-﻿
+﻿//MIT License
+//Copyright (c) 2005-2023 kyosho81-KPS
 
 #include <signal.h>
 
