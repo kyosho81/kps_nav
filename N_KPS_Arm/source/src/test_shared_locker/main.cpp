@@ -2,8 +2,6 @@
 #include <signal.h>
 
 #include "Comm/TimerDiff.h"
-// #include "interpro_shared/shared_pipe.hpp"
-// #include "interpro_shared/locker_shared_pool.hpp"
 #include "interpro_shared/sh_pool.hpp"
 
 //using namespace boost::interprocess;
