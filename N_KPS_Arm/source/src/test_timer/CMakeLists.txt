@@ -51,16 +51,10 @@ set(TEST_TIMER_SRC
 
 if(WIN32)
 set(TEST_TIMER_LIB
-	libinterface
-	libtransfer
+
 	libcom
-	librobot
-	libshared_pool
-	libxmlrpc
-	ControlCAN.lib
+
 	${Boost_LIBRARIES}
-	WS2_32.lib
-	setupapi.lib 
 	
 )
 else()
@@ -68,14 +62,9 @@ else()
 link_directories(/lib)
 
 set(TEST_TIMER_LIB
-    libtransfer
+
     libcom
-    libxmlrpc  	
-    librobot
-    libshared_pool
-    libinterface
-    libxmlrpc
-    controlcan
+   
 	pthread
 	rt 
 	${Boost_LIBRARIES}

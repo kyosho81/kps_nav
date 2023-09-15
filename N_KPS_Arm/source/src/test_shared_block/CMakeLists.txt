@@ -35,10 +35,8 @@ set(TEST_SHARED_BLOCK_SRC
 if(WIN32)
 set(TEST_SHARED_BLOCK_LIB
 	libcom
-	librobot
 	libshared_pool
-	libxmlrpc
-	WS2_32.lib
+
 	${Boost_LIBRARIES}
 )
 else()

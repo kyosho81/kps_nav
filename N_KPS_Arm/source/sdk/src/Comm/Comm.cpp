@@ -21,7 +21,6 @@
 
 #include "Comm.h"
 #include "Comm/version.h"
-#include "robot/Geometry.h"
 
 using namespace boost;
 using namespace boost::xpressive;
@@ -33,7 +32,6 @@ using namespace std;
  * class cComm
 ****************************************************************************************************/
 U8 cComm::bit_value_[8];
-KPS_VERSION cComm::ver_;
 
 cComm::cComm(void)
 {
@@ -57,12 +55,7 @@ bool cComm::load()
 	bit_value_[6] = 64;
 	bit_value_[7] = 128;
 
-	memset(&ver_,0,sizeof(KPS_VERSION));
-	ver_.v_main_ = VERSION_MAIN;
-	ver_.v_sub_1_ = VERSION_SUB_1;
-	ver_.v_sub_2_ = VERSION_SUB_2;
-	ver_.temp_ = 0;
-
+	
 	return true;
 }
 
@@ -662,81 +655,6 @@ bool cComm::Create_File(const std::string &strPath)
 {
 	return boost::filesystem::create_directories(strPath); 
 }
-
-KPS_VERSION cComm::getVersion()
-{
-	load();
-	return ver_;
-}
-
-std::string cComm::getSVersion()
-{
-	std::stringstream ss;
-	ss<<"main v:"<<ver_.v_main_<<"."<<ver_.v_sub_1_<<"."<<ver_.v_sub_2_;
-	return ss.str();
-}
-
-SPos cComm::World2Local(SPos ori_pos,SPos ref_pos)
-{
-	SPos loc_pos;
-	//ref_pos is current pos
-	//ori_pos is local pos for new origin pos
-	//loc_pos is current pos int new origin pos
-	VecPosition vo(ori_pos.x_,ori_pos.y_);
-	//
-	VecPosition vr(ref_pos.x_,ref_pos.y_);
-	//
-	VecPosition vl = vr -vo;
-	vl.rotate(-Rad2Deg(ori_pos.th_));
-	loc_pos.x_ = vl.getX();
-	loc_pos.y_ = vl.getY();
-	loc_pos.th_ = VecPosition::normalizeAngleRad(ref_pos.th_ - ori_pos.th_);
-
-	return loc_pos;
-}
-
-SPos cComm::Local2World(SPos loc_pos,SPos world_pos)
-{
-	SPos res_pos;
-	//
-	VecPosition vl(loc_pos.x_,loc_pos.y_);
-	vl.rotate(Rad2Deg(world_pos.th_));
-
-	//
-	VecPosition vw(world_pos.x_,world_pos.y_);
-	vl+= vw;
-
-	//
-	res_pos.x_ = vl.getX();
-	res_pos.y_ = vl.getY();
-	res_pos.th_ =  VecPosition::normalizeAngleRad(loc_pos.th_ + world_pos.th_);
-
-	return res_pos;
-}
-SPos cComm::odom2pos(const SOdomSpeed &odom){
-	SPos pos;
-	pos.x_ = odom.x_;
-	pos.y_ = odom.y_;
-	pos.th_ = odom.th_;
-	return pos;
-}
-SPos cComm::cal_diff( SPos cur_pos, SPos ori_pos ){
-
-
-	SPos pos_diff = World2Local( ori_pos , cur_pos);
-
-	return pos_diff;
-}
-
-F32 cComm::dis_p2p(SPos pos_1, SPos pos_2)
-{
-	SPos pos_diff = World2Local( pos_1 , pos_2);
-
-	F32 dis = VecPosition(pos_diff.x_,pos_diff.y_).getMagnitude();
-
-	return dis;
-}
-
 bool cComm::Del_File(const std::string &strPath)
 {
 	try

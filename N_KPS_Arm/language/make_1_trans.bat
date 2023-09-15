@@ -1,1 +1,0 @@
-D:\Qt\4.8.6\bin\linguist.exe kps_monitor.ts

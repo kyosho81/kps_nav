@@ -13,7 +13,6 @@
 #include <boost/math/common_factor_rt.hpp>
 
 #include "Comm/MyDefine.h"
-#include "robot/RobotStruct.h"
 
 
 typedef union{
@@ -95,8 +94,6 @@ public:
 
 	static std::string& replace_str(std::string& str, const std::string& to_replaced, const std::string& newchars);
 
-	static KPS_VERSION getVersion();
-	static std::string getSVersion();
 
 public:
 	template<typename T>
@@ -213,16 +210,15 @@ public:
 	};
 
 public:
-	static SPos World2Local(SPos ori_pos,SPos ref_pos);
-	static SPos Local2World(SPos loc_pos,SPos world_pos);
-	static SPos odom2pos(const SOdomSpeed &odom);
-	static SPos cal_diff( SPos cur_pos, SPos ori_pos );
-	static F32 dis_p2p(SPos pos_1, SPos pos_2);
+// 	static SPos World2Local(SPos ori_pos,SPos ref_pos);
+// 	static SPos Local2World(SPos loc_pos,SPos world_pos);
+// 	static SPos odom2pos(const SOdomSpeed &odom);
+// 	static SPos cal_diff( SPos cur_pos, SPos ori_pos );
+// 	static F32 dis_p2p(SPos pos_1, SPos pos_2);
 
 private:
 	static U8 bit_value_[8];
 
-	static KPS_VERSION ver_;
 };
 
 

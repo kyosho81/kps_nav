@@ -10,6 +10,14 @@
 #include "Comm/buffer_con.hpp"
 #include "Comm/pattern_thread.h"
 
+typedef struct _SCanframe
+{
+	int can_id_;
+	U8 len_;
+	U8 data_[64];
+
+}SCanframe;
+
 class can_base
 {
 public:

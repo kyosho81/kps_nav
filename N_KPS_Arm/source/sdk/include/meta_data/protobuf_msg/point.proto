@@ -1,9 +1,0 @@
-syntax = "proto2";
-
-package KPS;
-
-message s_point
-{
-required float x = 1;
-required float y = 2;
-}

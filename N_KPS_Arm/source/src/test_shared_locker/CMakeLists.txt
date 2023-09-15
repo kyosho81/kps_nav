@@ -35,10 +35,8 @@ set(TEST_SHARED_LOCKER_SRC
 if(WIN32)
 set(TEST_SHARED_LOCKER_LIB
 	libcom
-	librobot
 	libshared_pool
-	libxmlrpc
-	WS2_32.lib
+
 	${Boost_LIBRARIES}
 )
 else()
@@ -47,9 +45,8 @@ link_directories(/lib)
 
 set(TEST_SHARED_LOCKER_LIB
     libcom
-	librobot
 	libshared_pool
-	libxmlrpc
+
 	pthread
 	rt 
 	${Boost_LIBRARIES}

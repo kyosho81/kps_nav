@@ -2,7 +2,6 @@
 #include "interpro_shared/pipe_shared_pool.hpp"
 #include "interpro_shared/locker_shared_pool.hpp"
 #include "interpro_shared/block_shared_pool.hpp"
-#include "interpro_shared/pub_view_data.hpp"
 
 std::map<std::string,void*> msg_shared_pool::m_global_shared_data_ptr_;
 sh_multimap msg_shared_pool::g_sh_multimap_("core_shared_msg_list");
@@ -18,4 +17,3 @@ sh_multimap locker_shared_pool::g_sh_multimap_("core_shared_locker_list");
 std::map<std::string,void*> block_shared_pool::m_global_shared_data_ptr_;
 sh_multimap block_shared_pool::g_sh_multimap_("core_sh_block_list_list");
 
-std::string pub_view_data::str_pro_nm_;

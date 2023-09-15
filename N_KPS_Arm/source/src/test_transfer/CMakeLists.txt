@@ -1,5 +1,5 @@
 include_directories(${KPS_ARM_SDK_PATH}/include/protobuf_msg)
-
+ 
 IF(ARM)
 	IF(SURO)
 	link_directories(${KPS_ARM_THIRD_PARTY_PATH}/arm/lib)
@@ -29,27 +29,24 @@ set(TEST_SERIAL_SRC
 
 if(WIN32)
 set(TEST_SERIAL_LIB
-	libinterface
+
 	libtransfer
 	libcom
-	librobot
 	libshared_pool
-	libxmlrpc
+
 	${Boost_LIBRARIES}
-	WS2_32.lib
-	setupapi.lib 
+
 )
 else()
 
 link_directories(/lib)
 
 set(TEST_SERIAL_LIB
-	libinterface
-    	libtransfer
-    	libcom
-    	libxmlrpc  	
-	librobot
-	#libshared_pool
+    
+	libtransfer
+    libcom
+	libshared_pool
+
 	pthread
 	rt 
 	${Boost_LIBRARIES}

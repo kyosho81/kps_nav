@@ -1,5 +1,4 @@
 #include "../Comm/Comm.h"
-#include "interface/cfg.hpp"
 
 #include "trans_dev/can_base.h"
 
@@ -20,7 +19,6 @@ bool can_base::init( S32 baud_rate )
 	}
 
 	std::string str_rec_can_id = "181;182;183;184;281;282;283;284;381;382;383;384;581;582;583;584;";
-	Config::getConfig("dev_can_id",str_rec_can_id);
 
 	if (!set_rec_can_id(str_rec_can_id)){
 		return false;

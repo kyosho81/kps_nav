@@ -1,1 +1,0 @@
-D:\Qt\4.8.6\bin\lupdate.exe ..\source\src\kps_monitor\ -ts kps_monitor.ts

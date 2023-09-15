@@ -35,10 +35,8 @@ set(TEST_SHARED_PIPE_SRC
 if(WIN32)
 set(TEST_SHARED_PIPE_LIB
 	libcom
-	librobot
 	libshared_pool
-	libxmlrpc
-	WS2_32.lib
+
 	${Boost_LIBRARIES}
 )
 else()
@@ -47,9 +45,8 @@ link_directories(/lib)
 
 set(TEST_SHARED_PIPE_LIB
     libcom
-	librobot
 	libshared_pool
-	libmovement
+
 	pthread
 	rt 
 	${Boost_LIBRARIES}

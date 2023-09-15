@@ -5,8 +5,6 @@
 #include "interpro_shared/pipe_shared_pool.hpp"
 #include "interpro_shared/block_shared_pool.hpp"
 #include "interpro_shared/locker_shared_pool.hpp"
-#include "interpro_shared/pub_view_data.hpp"
-
 
 typedef struct _sclose{
 	int over;

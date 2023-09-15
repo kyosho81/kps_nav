@@ -1,7 +1,0 @@
-syntax = "proto2";
-
-message GErrorCode
-{
-	required bytes process_name = 1;
-	required int32 process_status = 2;
-}
