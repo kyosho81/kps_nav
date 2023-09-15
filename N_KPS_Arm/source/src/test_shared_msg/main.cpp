@@ -28,16 +28,14 @@ int main(int argc, char* argv[]){
 
 	if(argc == 1){
 
-		msg_shared_pool::init(argv);
+		msg_shared_pool::init(argv,true);
 
 		boost::function<bool(const int&)> fnc;
 		fnc = boost::bind(call_back_odom,_1);
 		std::string str_sub_msg = SUB_MSG_SH_POOL("odom",fnc);
 
-		//while(b_run){
+		SLEEP(10000);
 
-			SLEEP(10000);
-		//}
 		//msg_shared_pool::destroy(str_sub_msg);
 		END_MSG_SH_POOL(int,str_sub_msg);
 	}else{
