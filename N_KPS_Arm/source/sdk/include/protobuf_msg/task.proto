@@ -1,0 +1,20 @@
+syntax = "proto2";
+
+package KPS;
+
+message mp_task_data{
+
+required uint32 task_index = 1;
+required string project_name = 2;
+required string path_name = 3;
+
+}
+
+message mp_task
+{
+required uint32 task_id = 1;
+required string task_name = 2;
+required string ontime_do = 3;
+repeated mp_task_data data = 4;
+
+}

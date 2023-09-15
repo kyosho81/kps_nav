@@ -1,0 +1,29 @@
+sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0
+
+sudo apt-get install gcc-arm-linux-gnueabi lzop libncurses5-dev libssl1.0.0 libssl-dev
+
+arm-linux-gnueabi-gcc -v
+
+#sudo apt-get install gcc-arm-linux-gnueabihf lzop libncurses5-dev libssl1.0.0 libssl-dev
+
+sudo cp Downloads/boost_1_58_0.tar.gz /opt/
+tar xzvf boost_1_58_0.tar.gz
+sudo chmod  755  boost_1_58_0
+
+
+using gcc : arm : arm-xilinx-linux-gnueabi-g++ ; 
+
+./bjam --layout=tagged --build-type=complete
+
+# edit .bashrc
+#source /opt/ros/indigo/setup.bash
+#source ~/catkin_ws/devel/setup.bash
+#source ~/catkin_ws/devel_isolated/setup.bash
+
+#export CROSS_COMPILE=arm-xilinx-linux-gnueabi-
+source /opt/Xilinx/Vivado/2014.4/settings64.sh
+export XILINX_LOCAL_USER_DATA=no
+export PATH=/opt/Xilinx/SDK/2014.4/gnu/arm/lin/bin:$PATH
+
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DARM=1 -DCMAKE_BUILD_TYPE=Debug -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 ..
+cmake -DARM=1 ..

@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+package KPS;
+
+message mp_loc_confidence
+{
+
+required bool  b_amcl_conf = 1;
+required float  amcl_conf  = 2;
+required bool   b_amcl_entropy = 3;
+required float  amcl_xy_entropy = 4;
+required float  amcl_theta_entropy = 5;
+required float  amcl_entropy = 6;
+
+}
+
+
+
+

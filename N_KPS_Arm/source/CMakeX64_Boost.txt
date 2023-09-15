@@ -1,0 +1,91 @@
+message("----------use x64 boost----------")
+
+if(WIN32)
+
+	SET(CMAKE_INSTALL_PREFIX "F:/project/N_Kunhou_Arm_sdk")
+	IF(CMAKE_BUILD_TYPE MATCHES "release")
+	link_directories(${KPS_ARM_THIRD_PARTY_PATH}/x64/release)
+	ELSE()
+	link_directories(${KPS_ARM_THIRD_PARTY_PATH}/x64/debug)
+	ENDIF()
+
+	IF(BUILD_SDK)
+	ELSE()
+	  IF(CMAKE_BUILD_TYPE MATCHES "release")
+	  link_directories("F:/project/N_Kunhou_Arm_sdk/lib/x64/Release")
+	  ELSE()
+	  link_directories("F:/project/N_Kunhou_Arm_sdk/lib/x64/Debug")
+	  ENDIF()
+	ENDIF(BUILD_SDK)
+
+
+set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} /MD /EHsc")
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} /MDd /EHsc")
+
+
+set(Boost_USE_STATIC_LIBS   ON)
+set(Boost_USE_MULTITHREADED ON)
+
+SET(BOOST_ROOT "d:/lib/boost_1_58_0")
+set(BOOST_LIBRARYDIR "d:/lib/boost_1_58_0/stage")
+find_package(Boost 1.58.0 COMPONENTS thread date_time program_options filesystem system signals serialization REQUIRED)
+
+
+#/////////////opencv///////////////// 
+#SET(OpenCV_DIR "D:/lib/opencv2.4.9/build/install")
+#SET(OpenCV_DIR "D:/lib/opencv2.4.9/build/install/x86/vc10/staticlib")
+#find_package(OpenCV REQUIRED)
+#set(OpenCV_FOUND 1) 
+#set( OpenCV_FOUND 1 )
+#find_package(OpenCV 2.4.9 REQUIRED PATHS "D:/lib/opencv2.4.9/build/install/x86/vc10/staticlib")
+#///////////////////////////////////
+
+else(WIN32)
+
+SET(CMAKE_INSTALL_PREFIX "/home/arm/C++/N_Kunhou_Arm_sdk/")
+link_directories(${KPS_ARM_THIRD_PARTY_PATH}/x64/)
+
+IF(BUILD_SDK)
+ELSE()
+link_directories("/home/arm/C++/N_Kunhou_Arm_sdk/lib/x64")
+ENDIF(BUILD_SDK)
+
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c++0x -fpic")  
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x -fpic -g")  
+
+#set(CMAKE_EXE_LINKER_FLAGS "-Xlinker -v")
+
+#/////////////boost//////////////////
+SET(BOOST_ROOT "/home/arm/Downloads/boost_1_58_064")
+find_package(Boost 1.58.0 COMPONENTS thread date_time program_options filesystem system signals serialization REQUIRED)
+#///////////////////////////////////
+
+#find_package(Protobuf 3.0.0 REQUIRED)
+#MESSAGE(STATUS "protobuf include dir " ${PROTOBUF_INCLUDE_DIR})
+#MESSAGE(STATUS "protobuf library dir " ${PROTOBUF_LIBRARY})
+
+endif(WIN32)
+
+message("INSTALL_PREFIX:")
+message(${CMAKE_INSTALL_PREFIX})
+
+message("CMAKE_C_FLAGS:")
+message("${CMAKE_C_FLAGS}")
+
+message("CMAKE_CXX_FLAGS:")
+message("${CMAKE_CXX_FLAGS}")
+
+if(Boost_FOUND)
+  include_directories(${Boost_INCLUDE_DIRS})
+  link_directories(${Boost_LIBRARY_DIRS})
+  #message(${CMAKE_MODULE_PATH})
+  #message(${Boost_ROOT})
+  message(${Boost_INCLUDE_DIRS})
+  message(${Boost_LIBRARY_DIRS})
+  message(${Boost_LIBRARIES})
+  message("boost found")
+  
+else()
+  message("boost not found")
+endif()
+

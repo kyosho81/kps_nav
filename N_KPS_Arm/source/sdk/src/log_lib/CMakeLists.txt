@@ -1,0 +1,8 @@
+AUX_SOURCE_DIRECTORY(./ LIBLOG_SRC_LIS)
+
+add_library(liblog ${LIBLOG_SRC_LIS})
+target_link_libraries(liblog )
+
+IF(BUILD_SDK)
+	INSTALL(TARGETS liblog DESTINATION ${SDK_LIB_PATH})
+ENDIF(BUILD_SDK)

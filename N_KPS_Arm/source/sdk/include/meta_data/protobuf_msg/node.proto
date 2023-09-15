@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package KPS;
+
+import "base.proto";
+
+message mp_node
+{
+required mp_item_base base = 1;
+
+repeated uint32 mp_ref_node_list = 2;
+repeated uint32 mp_ref_edge_list =3 ;
+optional string lab = 4;
+
+}

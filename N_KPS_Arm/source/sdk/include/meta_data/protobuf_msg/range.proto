@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+package KPS;
+
+message mp_range_data
+{
+
+required float x = 1;
+required float y = 2;
+     
+}
+
+message mp_range
+{
+
+required string range_name = 1;
+repeated mp_range_data data = 2;
+
+}

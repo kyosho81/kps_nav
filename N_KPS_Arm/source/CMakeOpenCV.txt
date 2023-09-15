@@ -1,0 +1,83 @@
+message("---------------OpenCV3.4.1------------")
+if(WIN32)
+	SET(OpenCV_DIR "D:/MyRobot/N_KPS_Arm/thirdparty/src/opencv/build/install")
+else(WIN32)
+	IF(SURO)
+		if(ARM)
+			SET(OpenCV_DIR "/home/tony/C/N_KPS_Arm/thirdparty/src/opencv/buildArmX86")
+		else(ARM)
+			#SET(OpenCV_DIR "/home/tony/C/N_KPS_Arm/thirdparty/src/opencv/buildArmX64")
+			SET(OpenCV_DIR "/home/tony/C/N_KPS_Arm/thirdparty/src/opencv/buildx64")
+		endif(ARM)
+	ELSE(SURO)
+		#SET(OpenCV_DIR "/home/tony/C/N_KPS_Arm/thirdparty/src/opencv/buildx64")
+		SET(OpenCV_DIR "/home/arm/C/N_KPS_Arm/thirdparty/src/opencv/buildArmX86")
+	ENDIF(SURO)
+endif(WIN32)
+
+find_package(OpenCV 3.4.1 REQUIRED)
+ 
+IF(OpenCV_FOUND)
+message("found---------------OpenCV3.4.1------------")
+message(">>>>>>>>>>opencv include dirs")
+include_directories(${OpenCV_INCLUDE_DIRS})
+message(${OpenCV_INCLUDE_DIRS})
+message(">>>>>>>>>>opencv libs")
+
+if(WIN32)
+
+else(WIN32)
+IF(SURO)
+set(OpenCV_LIBS
+	${OpenCV_LIBS}
+	#libzlib.a
+	#libIlmImf.a
+	#liblibjasper.a
+	#liblibjpeg.a
+	#liblibpng.a
+	#liblibprotobuf.a
+	#liblibtiff.a
+	#liblibwebp.a
+)
+ELSE(SURO)
+	if(ARM)
+		set(OpenCV_LIBS
+		${OpenCV_LIBS}
+			libzlib.a
+			libIlmImf.a
+			liblibjasper.a
+			liblibjpeg.a
+			liblibpng.a
+			liblibprotobuf.a
+			liblibtiff.a
+			liblibwebp.a
+		)	
+	else(ARM)
+		set(OpenCV_LIBS
+			${OpenCV_LIBS}
+			#libzlib.a
+			#libIlmImf.a
+			#libippicv.a
+			#libippiw.a
+			#libittnotify.a
+			#liblibjasper.a
+			#liblibjpeg.a
+			#liblibpng.a
+			#liblibprotobuf.a
+			#liblibtiff.a
+			#liblibwebp.a
+			)
+	endif(ARM)
+
+ENDIF(SURO)
+endif(WIN32)
+
+message(${OpenCV_LIBS})
+message(">>>>>>>>>>opencv libs dir")
+message(${OpenCV_DIR}/lib)
+link_directories(${OpenCV_DIR}/lib)
+link_directories(${OpenCV_DIR}/install/share/OpenCV/3rdparty/lib)
+ELSE(OpenCV_FOUND)
+message("!!!!! NOT found---------------OpenCV3.4.1------------")
+ENDIF(OpenCV_FOUND)
+

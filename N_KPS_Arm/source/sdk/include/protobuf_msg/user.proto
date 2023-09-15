@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package Test;
+
+message userninfo
+{
+required string name = 1;
+required string mail = 2;
+required string time = 3;
+optional string status = 4;
+}

@@ -1,0 +1,23 @@
+syntax = "proto2";
+
+package KPS;
+
+import "base.proto";
+
+message mp_cargo_type
+{       
+  required mp_item_base base = 1;
+
+  required string cargo_type_nm_ = 2;
+  required uint32 cargo_shape = 3;
+  
+  required string pallet_type_uuid = 4;
+  required string operation_list = 5;
+  
+  optional uint32  ms_produce_time = 6;
+  optional uint32  ms_consume_time = 7;
+  
+  optional string weight = 8;
+  optional string volume = 9;
+
+}

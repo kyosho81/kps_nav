@@ -1,0 +1,5 @@
+1;0;producer;GP_B#;PT_A#;producer;GP_B#;PT_A#;1;#;1;#
+2;1;producer;GP_A#;PT_A#;consumer;GP_A#;PT_A#;1;#;2;task_flow01#
+3;0;producer;GP_A#;PT_A#;storage;GP_A#;PT_A#;1;#;3;#
+4;0;storage;GP_A#;PT_A#;consumer;GP_A#;PT_A#;1;#;0;#
+5;0;producer;GP_A#;PT_ANY#CT_ANY#;storage;GP_A#;PT_ANY#CT_ANY#;1;#;1;#

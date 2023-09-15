@@ -1,0 +1,24 @@
+syntax = "proto2";
+
+package KPS;
+
+import "base.proto";
+import "cargo.proto";
+import "pallet.proto";
+import "cargo_type.proto";
+import "pallet_type.proto";
+import "lab.proto";
+
+message s_consumer
+{
+
+required mp_item_base base = 1;
+
+repeated mp_schedule schedule = 2;
+
+required uint32 status = 3;
+
+optional string processer_uuid = 4;
+
+
+}

@@ -1,0 +1,22 @@
+syntax = "proto2";
+
+package KPS;
+
+import "base.proto";
+import "cargo.proto";
+import "pallet.proto";
+import "cargo_type.proto";
+import "pallet_type.proto";
+import "lab.proto";
+
+message s_station
+{
+
+required mp_item_base base = 1;
+
+required bool enable = 2;
+required string sch_date = 3;
+
+
+
+}

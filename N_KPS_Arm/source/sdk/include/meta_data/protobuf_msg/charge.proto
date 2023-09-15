@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package KPS;
+
+import "base.proto";
+import "station.proto";
+
+message s_charge
+{
+
+required s_station station = 1;
+
+required bool charge = 2;
+
+}

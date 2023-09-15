@@ -1,0 +1,1912 @@
+sudo apt-get update
+cd Desktop/
+tar -zxvf arm-linux-gnueabihf-4.7.3.tar.gz -C/opt
+sudo tar -zxvf arm-linux-gnueabihf-4.7.3.tar.gz -C/opt
+cd /opt/arm-linux-gnueabihf-4.7.3/sysroots/i686-arago-linux/usr/bin/
+pwd
+cd
+gedit .bashrc 
+echo $PATH
+gedit .bashrc 
+cd
+gedit .bashrc
+vi .bashrc
+sudo su
+echo $PATH
+arm-linux-gnueabihf-gcc -v
+cd /opt/arm-linux-gnueabihf-4.7.3/sysroots/i686-arago-linux/usr/bin/
+arm-linux-gnueabihf-gcc -v 
+sudo arm-linux-gnueabihf-gcc -v
+cd
+ls
+arm-linux-gnueabihf-gcc -v
+arm-linux-gnueabihf-gcc-4.7.3 -v
+ll /opt/arm-linux-gnueabihf-4.7.3/sysroots/i686-arago-linux/usr/bin/
+ls
+cd /opt/arm-linux-gnueabihf-4.7.3/sysroots/i686-arago-linux/usr/bin/
+ll
+sudo arm-linux-gnueabihf-gcc -v
+sudo apt-get install ia32-libs
+sudo apt-get install lib32z1
+sudo apt-get install ia32-libs
+sudo apt-get update
+sudo apt-get install ia32-libs
+sudo apt-get install lib32z1
+arm-linux-gnueabihf-gcc -v
+sudo apt-get install ia32-libs
+sudo apt-get install lib32bz2-1.0
+arm-linux-gnueabihf-gcc -v
+sudo apt-get install ia32-libs
+sudo apt-get install lib32ncurses5
+arm-linux-gnueabihf-gcc -v
+apt-get install lib32stdc++6
+sudo apt-get install lib32stdc++6
+arm-linux-gnueabihf-gcc -v
+gedit .bash_history 
+gedit .bashrc
+cd N_KPS_Arm/
+cd build-d/
+ls
+cmake -DBUILD_SDK=1 -DARM=1 ../source
+sudo apt-get install cmake
+arm-linux-gnueabihf-gcc -v
+cmake -DBUILD_SDK=1 -DARM=1 ../source
+arm-linux-gnueabihf-g++
+arm-linux-gnueabihf-g++ -v
+cmake -DBUILD_SDK=1 -DARM=1 ../source
+sudo cp Downloads/boost_1_58_0.tar.gz /opt/
+cd /opt/
+sudo tar xzvf boost_1_58_0.tar.gz
+ls
+cd boost_1_58_0/
+ls
+cd boost_1_58_0/
+chmod 755 boost_1_58_0
+sudo chmod 755 boost_1_58_0
+cd boost_1_58_0/
+sudo cp ~/Desktop/project-config.jam ./
+sudo rm project-config.jam 
+ls
+./bootstrap.sh 
+sudo ./bootstrap.sh 
+sudo cp ~/Desktop/project-config.jam ./
+vi project-config.jam 
+gedit project-config.jam 
+sudo gedit project-config.jam 
+./bjam --layout=tagged --build-type=complete
+sudo ./bjam --layout=tagged --build-type=complete
+rm project-config.jam~
+rm project-config.jam
+sudo rm project-config.jam
+sudo rm project-config.jam~ 
+sudo cp ~/Desktop/project-config.jam ./
+./bjam --layout=tagged --build-type=complete
+ls
+./bootstrap.sh 
+cd ..
+rm -rf boost_1_58_0
+sudo rm -rf boost_1_58_0
+tar xzvf boost_1_58_0.tar.gz
+sudo tar xzvf boost_1_58_0.tar.gz
+sudo chmod 755 boost_1_58_0
+cd boost_1_58_0/
+ls
+./bootstrap.sh 
+sudo ./bootstrap.sh 
+sudo gedit project-config.jam 
+sudo ./bjam --layout=tagged --build-type=complete
+./bjam --layout=tagged --build-type=complete
+cd ..
+sudo rm -rf boost_1_58_0
+cd
+cd Downloads/
+ls
+tar xzvf boost_1_58_0.tar.gz 
+gedit project-config.jam 
+./bjam --layout=tagged --build-type=complete
+cd boost_1_58_0/
+ls
+./bootstrap.sh 
+ls
+vi project-config.jam 
+gedit project-config.jam 
+./bjam --layout=tagged --build-type=complete
+cd Do
+cd Downloads/
+ls
+tar -jxvf gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux.tar.bz2 -C/opt
+sudo tar -jxvf gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux.tar.bz2 -C/opt
+cd /opt/
+ls
+cd gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/
+ls
+pwd
+cd 
+gedit .bashrc
+cd N_KPS_Arm/build-d/
+cmake -DBUILD_SDK=1 -DARM=1 ../source
+arm-linux-gnueabihf-g++
+arm-linux-gnueabihf-g++ -v
+cmake -DBUILD_SDK=1 -DARM=1 ../source
+echo $PATH
+ls
+cmake -DBUILD_SDK=1 -DARM=1 ../source
+arm-linux-gnueabihf-gcc -v
+cd N_KPS_Arm/build-d/
+cmake -DBUILD_SDK=1 -DARM=1 ../source
+cd /opt/
+ls
+sudo rm -rf arm-linux-gnueabihf-4.7.3/
+ls
+sudo rm boost_1_58_0.tar.gz 
+cd 
+cd N_KPS_Arm/build-d/
+cmake -DBUILD_SDK=1 -DARM=1 ../source
+cd 
+cd N_KPS_Arm/build-d/
+cmake -DBUILD_SDK=1 -DARM=1 ../source
+arm-linux-gnueabihf-g++ -v
+arm-linux-gnueabihf-gcc -v
+cmake -DBUILD_SDK=1 -DARM=1 ../source
+cd
+gedit .bashrc
+sudo apt-get install g++
+cd N_KPS_Arm/
+cd build-d/
+ls
+cmake -DBUILD_SDK=1 -DARM=1 ../source
+make
+arm-linux-gnueabihf-gcc -v
+make
+ifconfig
+ping 192.168.11.18
+cd
+cd N_KPS_Arm/
+ls
+mkdir build-ar
+cd build-
+cd build-ar/
+cmake -DBUILD_SDK=1 -DARM=1 ../source
+make
+cmake -DBUILD_SDK=1 -DARM=1 ../source
+make
+cd ../app/
+ls
+./renew.sh 
+ll
+which eclipse
+eclipse
+cd N_KPS_Arm/
+cd build-
+cd build-ar/
+make
+ls
+cd N_KPS_Arm/
+ls
+cd build-d/
+ls
+cmake -DBUILD_SDK=1  ../source
+sudo apt-get install boost-dev
+sudo apt-get install lib-boost-dev
+sudo apt-get install libboost-dev
+cmake -DBUILD_SDK=1  ../source
+ifconfig
+cd
+ls
+cd Downloads/
+ls
+sudo mv eclipse-cpp-mars-R-linux-gtk-x86_64.tar.gz /opt/
+ls
+cd /opt/
+ls
+tar -xzvf eclipse-cpp-mars-R-linux-gtk-x86_64.tar.gz 
+sudo tar -xzvf eclipse-cpp-mars-R-linux-gtk-x86_64.tar.gz 
+ls
+cd eclipse/
+ls
+top
+cd N_KPS_Arm/build-d/
+cmake -DBUILD_SDK=1  ../source
+sudo apt-get install libboost-dev
+cd 
+cd Do
+cd Downloads/
+ls
+cd boost_1_58_064/
+./bootstrap.sh 
+./bjam
+cd
+cd N_KPS_Arm/
+cd build-d/
+cmake -DBUILD_SDK=1  ../source
+make
+cd ../bin/
+ls
+cd x64/
+ls
+./interprocess_core 
+./interprocess_laser_sim shared
+./interprocess_chassis shared
+./interprocess_data_server shared
+./interprocess_pf  shared
+cd N_KPS_Arm/
+cd build-d/
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -DBUILD_SDK=1 ../source
+make
+cd ../bin/x64/
+ls
+./interprocess_core 
+./interprocess_laser_sim shared
+./interprocess_chassis shared
+./interprocess_data_server shared
+./interprocess_pf shared
+top
+ping 192.168.11.15
+ping 192.168.0.15
+telnet 192.168.0.15
+cd N_KPS_Arm/build-ar/
+make
+gedit .bashrc
+cd Desktop/
+sudo tar xf arm-cortexa9-linux-gnueabihf-4.9.3.tar.xz -C /opt/FriendlyARM/toolchain/
+sudo mkdir -p /opt/FriendlyARM/toolchain
+sudo tar xf arm-cortexa9-linux-gnueabihf-4.9.3.tar.xz -C /opt/FriendlyARM/toolchain/
+gedit .bashrc
+cd
+gedit .bashrc
+arm-linux-gcc -v
+cd N_KPS_Arm/
+ls
+cd build-ar/
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -DBUILD_SDK=1 -DARM=1 ../source
+make
+arm-linux-g++ -v
+make clean
+make
+cd
+vi .bashrc
+gedit .bashrc
+cd N_KPS_Arm/build-ar/
+make
+cd N_KPS_Arm/build-ar/
+make
+sudo apt-get install g++
+cd .
+ls
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -DBUILD_SDK=1 -DARM=1 ../source
+make
+cd
+gedit .bashrc
+cd N_KPS_Arm/build-ar/
+make
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -DBUILD_SDK=1 -DARM=1 ../source
+make
+arm
+cd ..
+ls
+cd source/
+ls
+cd ..
+ls
+cd build-ar/
+ls
+make
+cd Desktop/
+ls
+cd Samples/
+l
+cd Runtime/
+ls
+cd Cpp/
+ls
+cd armeabihf32/
+ls
+make
+cd
+cd Desktop/Linux/
+ls
+cd Samples/
+ls
+cd Runtime/Cpp/armeabihf32/
+ls
+make
+vi Makefile 
+gedit Makefile 
+make
+cd N_KPS_Arm/build-ar/
+make
+cd ..
+cd lib/arm/
+ls
+sudo cp libhasp_linux_armeabi-hf.a /lib/
+pwd
+vi .bashrc
+cd Desktop/
+ls
+cd l
+ls
+cd Linux/
+ls
+cd Samples/Runtime/Cpp/armeabihf32/
+make
+cd Desktop/Linux/API/Runtime/Cpp/armeabihf32/
+ls
+make
+cd ./../../
+cd ../../
+ls
+cd Samples/
+ls
+cd Runtime/Cpp/armeabihf32/
+ls
+make
+make clean
+make
+make clean
+make
+cd ../../../../
+ls
+cd API/Runtime/Cpp/armeabihf32/
+ls
+rm libhasp_cpp_linux_armeabi-hf.a 
+make
+make clean
+make
+sudo apt-get update
+ifconfig
+cd N_KPS_Arm/
+cd build-ar/
+make
+cd N_KPS_Arm/
+cd build-ar/
+make
+make clean
+make
+cd 
+cd C/N_KPS_Arm/
+mkdir build-ar
+cd build-ar/
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -DBUILD_SDK=1 -DARM=1 ../source
+make
+cd
+cd C/N_KPS_Arm/
+mkdir build-ar
+cd build-ar/
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -DBUILD_SDK=1 -DARM=1 ../source
+make
+cd
+cd C/N_KPS_Arm/
+mkdir build-ar
+cd build-ar/
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -DBUILD_SDK=1 -DARM=1 ../source
+make
+cd C/N_KPS_Arm/build-ar/
+make
+cd
+cd C/N_KPS_Arm/
+mkdir build-ar
+cd build-ar/
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -DBUILD_SDK=1 -DARM=1 ../source
+make
+[A
+make
+cd C/N_KPS_Arm_41/
+mkdir build-ar
+cd build-ar/
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -DBUILD_SDK=1 -DARM=1 ../source
+make
+make clean
+make
+cd 
+cd C/N_KPS_Arm/
+mkdir build-ar
+cd build-ar/
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -DBUILD_SDK=1 -DARM=1 ../source
+make
+cd C/N_KPS_Arm/
+mkdir build-ar
+cd build-ar/
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -DBUILD_SDK=1 -DARM=1 ../source
+make
+cd C/N_KPS_Arm/
+mkdir build-ar
+cd build-ar/
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -DBUILD_SDK=1 -DARM=1 ../source
+make
+cd N_KPS_Arm/
+cd build-ar/
+make
+make clean
+make
+cd N_KPS_Arm/build-ar/
+make
+ls
+cd N_KPS_Arm/
+ls
+cd build-d/
+make
+exit
+ftp 192.168.1.149
+ping 192.168.1.148
+ping 192.168.1.149
+ftp 192.168.1.149
+cd C
+ls
+cd N_KPS_Arm/bin/arm/
+ls
+ftp 192.168.1.149
+cd C/N_KPS_Arm/build-ar/
+make -j2
+cd C/N_KPS_Arm/build-ar/
+make -j2
+vi .bashrc
+cd C/N_KPS_Arm/bin/arm/
+ls
+ftp 192.168.1.99
+ping 192.168.1.118
+cd C
+cd N_KPS_Arm
+ls
+cd source/
+ls
+cd ..
+ls
+cd build-d/
+ls
+cmake ../source
+cd ..
+ls
+chmod 777 build_ARM_sdk.sh 
+ls
+./build_ARM_sdk.sh 
+pwd
+./build_ARM_sdk.sh 
+cd build-ar/
+ls
+make
+cd ..
+./build_ARM_sdk.sh 
+cd build-ar/
+make
+cd  C/N_KPS_Arm/build-ar
+make -j2
+cd ..
+cd N_KPS_Arm
+l
+ls
+chmod 777 build_ARM_sdk.sh 
+chmod 777 build_x64_sdk.sh 
+./build_ARM_sdk.sh 
+cd build-ar/
+make -j2
+make
+ping 192.168.1.99
+make
+ping 192.168.1.99
+make
+cd ../bin/
+cd arm/
+ls
+ftp 192.168.1.99
+ls
+cd ..
+cd arm/
+ls
+ftp 192.168.1.99
+cd ..
+cd x64/
+ls
+cd Debug/
+ls
+cd cfg/
+ls
+ftp 192.168.1.99
+ls
+cd ../../../
+ls
+cd arm/
+put kps_core 
+ftp 192.168.1.99
+telnet 192.168.0.15
+telnet 192.168.1.99
+ssh 192.168.1.99
+cd ../
+ls
+cd x64/Debug/
+ls
+cd cfg/
+ls
+ftp 192.168.1.99
+cd Desktop/Linux/Samples/Runtime/Cpp/armeabihf32/
+ls
+mk
+./mk
+ls
+make
+./make
+mka
+make
+cd /home/arm/C/N_KPS_Arm/source/../thridparty
+cd /home/arm/C/N_KPS_Arm/source/../thirdparty/
+cd /home/arm/C/N_KPS_Arm/source/../thirdparty/cd
+cd ~
+ls
+cd Desktop/
+cd Linux/Samples/Runtime/Cpp/armeabihf32/
+ls
+ftp 192.168.1.99
+cd
+cd LDK/Linux/Samples/Runtime/C/gcc/armhf/static/
+ls
+ftp 192.168.1.99
+cd 
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/
+cd arm/
+ls
+ftp 192.168.1.99
+cd LDK
+ls
+cd Linux A
+cd ..
+cd Linux Arm
+cd ..
+ls
+cd LinuxARM/
+ls
+ftp 192.168.1.99
+cd ..
+cd Linux/Samples/Runtime/C/gcc/armhf/static/
+lks
+ls
+make
+chmod 777 mk
+./mk
+cd ../
+cd Linux/Samples/Runtime/C/gcc/armhf/static/
+ls
+ftp 192.168.1.99
+cd LDK/Linux/Samples/Runtime/C/gcc/armel/static/
+ftp 192.168.1.99
+cd ..
+cd armhf/
+ls
+cd static/
+ftp 192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make 
+cd ../bin/arm/
+ls
+ftp 192.168.1.99
+cd /home/arm/LDK
+ls
+cd LinuxARM/
+ls
+ftp 192.168.1.99
+cd /d /home/arm/LDK/demo-c/gcc/armhf/static
+cd /home/arm/LDK/demo-c/gcc/armhf/static
+ftp 192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make -2
+make -j2
+cd C/N_KPS_Arm/build-ar/
+make -j2
+cd C/N_KPS_Arm
+ls
+cd thirdparty/
+ls
+cd arm/
+s
+ls
+cd hasp/
+ls
+svnadd libhasp_cpp_linux_armeabi-hf.a 
+svn add libhasp_cpp_linux_armeabi-hf.a 
+sudo apt-get install subversion
+svn add libhasp_cpp_linux_armeabi-hf.a 
+ls
+svn add libhasp_linux_armhf_demo.a 
+svn add libhasp_linux_armeabi-hf.a 
+cd ..
+cd ../../
+ls
+cd build-ar/
+make
+cd C/N_KPS_Arm/thirdparty/src/platform_external_protobuf-2.5.0-master/
+ls
+./configure --host=arm-linux CC=arm-cortexa9-linux-gnueabihf-gcc CXX=arm-cortexa9-linux-gnueabihf-g++ --with-protoc=protoc
+protoc
+make clean
+./configure
+make
+sudo make install
+protoc
+/usr/local/bin/protoc 
+make check
+make install
+sudo make install
+cd C
+ls
+cd N_KPS_Arm/build-ar
+make
+cd ..
+ls
+cd thirdparty/
+ls
+cd src/
+ls
+c platform_external_protobuf-2.5.0-master
+ls
+cd platform_external_protobuf-2.5.0-master/
+ls
+./configure
+make
+make check
+sudo make install
+./arm-cortexa9-linux-gnueabihf-gcc -v
+./arm-cortexa9-linux-gnueabihf-gcc
+./arm-cortexa9-linux-gnueabihf-gcc -v
+arm-cortexa9-linux-gnueabihf-gcc --v
+arm-cortexa9-linux-gnueabihf-gcc -v
+./configure --host=arm-linux CC=arm-cortexa9-linux-gnueabihf-gcc CXX=arm-cortexa9-linux-gnueabihf-g++ --with-protoc=protoc
+protoc
+ls
+./protoc
+/usr/local/bin/protoc 
+cd $home
+ls
+echo $home
+echo &home
+echo $HOME
+cd C/N_KPS_Arm/thirdparty/
+ls
+cd arm/
+ls
+svn add libprotobuf.a 
+svn add libprotobuf-lite.a 
+svn add libprotoc.a 
+cd ..
+ls
+cd x64/
+ls
+svn add libprotobuf.a 
+svn add libprotobuf-lite.a 
+svn add libprotoc.a 
+cd ..
+ls
+./build_x64_sdk.sh 
+ls
+cd build-r/
+make -j2
+protoc
+sudo cp /usr/local/bin/protoc /usr/local/lib/.
+/usr/local/lib/protoc 
+echo "/usr/local/lib">>/etc/ld.so.conf
+sudo echo "/usr/local/lib">>/etc/ld.so.conf
+sudo vi /etc/ld.so.conf
+ldconfig
+sudo ldconfig
+protoc
+cd C/N_KPS_Arm/thirdparty/src/platform_external_protobuf-2.5.0-master/
+ls
+./configure --host=arm-linux CC=arm-cortexa9-linux-gnueabihf-gcc CXX=arm-cortexa9-linux-gnueabihf-g++ --with-protoc=protoc
+protoc
+make
+make check
+make clean
+./configure --host=arm-linux CC=arm-cortexa9-linux-gnueabihf-gcc CXX=arm-cortexa9-linux-gnueabihf-g++ --with-protoc=protoc
+make
+make check
+./configure -help
+./configure --host=arm-linux CC=arm-cortexa9-linux-gnueabihf-gcc CXX=arm-cortexa9-linux-gnueabihf-g++ --with-protoc=protoc -- prefix=$HOME
+./configure --host=arm-linux CC=arm-cortexa9-linux-gnueabihf-gcc CXX=arm-cortexa9-linux-gnueabihf-g++ --with-protoc=protoc --prefix=$HOME
+make install
+sudo make install
+make clean
+./configure --host=arm-linux CC=arm-cortexa9-linux-gnueabihf-gcc CXX=arm-cortexa9-linux-gnueabihf-g++ --with-protoc=protoc --prefix=$HOME
+make
+make install
+ssh 192.168.1.99
+exit
+cd C/N_KPS_Arm/build-ar
+make
+cd ../thirdparty/arm/
+ls
+cd ..
+ls
+cd src/
+ls
+cd protobuf-2.3.0/
+ls
+./configure --host=arm-linux-gnueabihf-gcc --with-protoc=protoc --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+./configure --host=arm-cortexa9-linux-gnueabihf-gcc --with-protoc=protoc --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+arm-cortexa9-linux-gnueabihf-gcc -version
+arm-cortexa9-linux-gnueabihf-gcc -v
+./configure --host=arm-cortexa9-linux-gnueabihf-gcc --with-protoc=protoc --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+./configure clean
+./configure --help
+./configure 
+make
+make install
+./configure --prefix=/home/arm
+make
+make install
+make clean
+make install
+make distclean
+./configure --host=arm-cortexa9-linux-gnueabihf-gcc --with-protoc=protoc --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+./configure --host=arm-cortexa9-linux-gnueabihf-gnu --with-protoc=protoc --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+./configure --host=arm-cortexa9-linux-gnu --with-protoc=protoc --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+make
+make clean
+./configure --host=arm-cortexa9-linux-gnu --with-protoc=protoc --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+make
+make install
+./configure --host=arm-cortexa9-linux-gnu --with-protoc=protoc --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+make
+make clean
+./configure --host=arm-cortexa9-linux-gnu --with-protoc=protoc --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+make
+make install
+./configure --host=arm-cortexa9-linux-gnu --with-protoc=protoc --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+ls
+cd ..
+ls
+cd protobuf-2.3.0/
+ls
+./configure --host=arm-cortexa9-linux-gnu --with-protoc=protoc --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+make
+make install
+cd ..
+cd protobuf-2.3.0/
+ls
+./configure 
+make
+cd ..
+cd protobuf-2.3.0/
+ls
+./configure --host=arm-cortexa9-linux-gnu --with-protoc=protoc --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+make
+cd src/
+ls
+cd .libs/
+ls
+objdump -p libprotobuf.a 
+cd ..
+./configure --host=arm-cortexa9-linux-gnu --with-protoc=protoc --disable-64it --enable-32bit --disable-shared CXXFLAGS="-O3 -fPIC" --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+make
+cd ..
+cd protobuf-2.3.0/
+ls
+./configure --host=arm-cortexa9-linux-gnu --with-protoc=protoc --disable-64it --enable-32bit --disable-shared CXXFLAGS="-O3 -fPIC" --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+make
+cd src/.libs/
+ls
+objdump -p libprotobuf.
+objdump -p libprotobuf.a 
+cd ..
+make check
+make install
+make unstall
+make uninstall
+./configure 
+make
+cd ..
+cd protobuf-2.3.0/
+ls
+./configure 
+make
+make check
+make
+make distclean
+./configure --host=arm-cortexa9-linux-gnu --with-protoc=protoc --disable-64it --enable-32bit --disable-shared CXXFLAGS="-O3 -fPIC" --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+arm-cortexa9-linux-gnueabihf-
+./configure --host=arm-cortexa9-linux-gnueabihf --with-protoc=protoc --disable-64it --enable-32bit --disable-shared CXXFLAGS="-O3 -fPIC" --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+make
+make install
+cd ..
+cd arm/
+ls
+cd lib
+ls
+objdump -p libprotobuf.a 
+cd ..
+ls
+cd arm/
+ls
+cd hasp/
+ls
+objdump -p libhasp_linux_arm.
+objdump -p libhasp_linux_armeabi-hf.a 
+cd C/Branch_CSPG_181114/
+ls
+chmod 755 build_ARM_sdk.sh 
+./build_ARM_sdk.sh 
+cd build-ar/
+make -j2
+make 
+make install
+cd 
+cd N_Kunhou_Arm_new/
+ls
+./build_ARM.sh 
+cd build-ar/
+make
+cd ..
+ls
+./build_ARM.sh 
+cd build-ar/
+make
+cd ..
+./build_ARM.sh 
+cd build-ar/
+make
+cd C/Branch_CSPG_181114/build-ar/
+make install
+cd ..
+ls
+chmod 755 build_x64_sdk.sh 
+./build_x64_sdk.sh 
+cd build-r/
+make
+make install
+cd 
+cd N_Kunhou_Arm_sdk/
+ls
+./build_ARM.sh 
+cd build-ar/
+make
+make install
+cd ..
+cd 
+cd C/Branch_CSPG_181114/build-ar/
+make install
+cd N_Kunhou_Arm_sdk/
+ls
+./build_x64.sh 
+cd build-r/
+make
+cd 
+cd N_Kunhou_Arm_sdk/
+ls
+./build_ARM.sh 
+./build_x64.sh 
+cd build-r/
+make 
+cd ../build-ar/
+make -j2
+cd ../build-r
+make
+cd C/N_KPS_Arm/build-ar/
+make
+cd C/N_KPS_Arm/build-ar/
+make
+sudo apt-get install libudev-dev
+sudo apt-get update
+sudo apt-get install libudev-dev
+cd C/N_KPS_Arm/thirdparty/src/libusb-1.0.20/
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib--disable-udev
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib --disable-udev
+make
+make 
+make install
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ --disable-udev
+make
+make install
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ 
+cd ..
+cd libusb-1.0.20/
+ls
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ 
+vi .bash_history 
+cd C/N_KPS_Arm/thirdparty/arm/lib4418/lib/
+ls
+cd canalyst2/
+ls
+ll
+readelf -a libcontrolcan.so
+readelf -h libcontrolcan.so
+cd C/N_KPS_Arm/build-ar/
+mke
+make
+cd ../bin/arm/
+scp interprocess_chassis  root@192.168.1.99:/root/.
+cd
+vi .bash_history 
+cd C/N_KPS_Arm/thirdparty/src/
+ls
+cd libusb-1.0.20/
+ls
+./configure --host=arm-cortexa9-linux-gnu
+make
+./configure --host=arm-cortexa9-linux-gnu
+make
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib
+cd ..
+ls
+cd thirdparty/
+ls
+cd arm/
+ls
+cd lib4418/
+ls
+cd lib/
+l
+ls
+cd canalyst2/
+ls
+scp libcontrolcan.so   root@192.168.1.99:/root/.
+scp libcontrolcan.a   root@192.168.1.99:/root/.
+ping 192.168.1.99
+cd Downloads/
+ls
+cd libusb-1.0.20/
+ls
+cd /home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib
+ls
+readelf -a libusb-1.0.a 
+readelf -h libusb-1.0.a 
+readelf -d libusb-1.0.a 
+ls
+cd canalyst2/
+ls
+readelf -d libcontrolcan.so 
+cd /home/arm/C/N_KPS_Arm/source/../thirdparty/arm/lib4418/lib
+ls
+pwd
+ping 192.168.1.99
+telnet 192.168.1.99
+ssh root@192.168.1.99
+ping 192.168.1.99
+ssh root@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+naje
+make
+cd C/N_KPS_Arm/thirdparty/src/libusb-1.0.20/
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ 
+make install
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ 
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ --with-udev=./lib/
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ --with-libudev=./lib/
+ls ../../arm/lib4418/lib/
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ --with-udev=../../arm/lib4418/lib/
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ --with-libudev=../../arm/lib4418/lib/
+CFLAGS=-I/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib/include
+LDFLAGS=-L/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ --with-libudev=../../arm/lib4418/lib/
+CFLAGS=-I/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib/include
+LDFLAGS=-L/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib
+echo @LDFLAGS
+echo $LDFLA
+echo @CFLAGS
+echo $CFLAGS
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ --with-udev=../../arm/lib4418/lib/
+sudo apt-get install libudev-dev
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ 
+sudo apt-get uninstall libudev-dev
+sudo apt-get remove libudev-dev
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ 
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ --with-udev=../../arm/lib4418/lib/
+sudo apt-get install libudev-dev
+sudo apt-get install udev
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ 
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ -
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ --disable-udev
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib
+eche $LD_LIBRARY_PATH
+echo $LD_LIBRARY_PATH
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ 
+export LDFLAGS="-L/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib" 
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/ 
+cd ..
+ls
+cd eudev-master/
+ls
+./autogen.sh 
+ls
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib
+ls
+./autogen.sh 
+sudo apt-get install autoconf
+./autogen.sh 
+ls
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib
+make
+sudo apt-get install aptitude 
+sudo aptitude install libtool
+./autogen.sh 
+sudo apt-get install xsltproc
+./autogen.sh 
+ls
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib
+sudo apt-get install gperftools
+sudo apt-get install gperf
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/lib
+make
+make install
+./configure --host=arm-cortexa9-linux-gnueabihf --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418/
+make
+make install
+pwd
+cd C/N_KPS_Arm/bin/arm/
+ls
+scp interprocess_chassis    root@192.168.1.99:/root/.
+cd ../../thirdparty/arm/lib4418/
+ls
+cd lib/
+ls
+cd canalyst2/
+ls
+ll
+scp libcontrolcan.so  root@192.168.1.99:/root/.
+scp libcontrolcan.a  root@192.168.1.99:/root/.
+scp libcontrolcan.a  root@192.168.1.99:/root/lib/.
+scp libcontrolcan.so  root@192.168.1.99:/root/lib/.
+cd 
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+scp interprocess_chassis    root@192.168.1.99:/root/.
+ssh root@192.168.1.99
+ls
+cd C
+ls
+cd kernel/
+cd..
+cd ..
+ld
+ls
+cd kernel/
+ls
+git clone https://github.com/friendlyarm/linux.git -b nanopi2-v4.4.y --depth 1
+sudo apt-get install git
+git clone https://github.com/friendlyarm/linux.git -b nanopi2-v4.4.y --depth 1
+cd C/N_KPS_Arm/build-ar/
+make
+ifocnfig
+ifconfig
+ping 192.168.1.99
+ssh root@192.168.1.99
+mek
+make
+cd ../bin/arm/
+scp interprocess_chassis    root@192.168.1.99:/root/.
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+ping 192.168.1.88
+ping 192.168.1.99
+scp interprocess_chassis    root@192.168.1.99:/root/.
+scp kps_core     root@192.168.1.99:/root/.
+scp kps_data_server      root@192.168.1.99:/root/.
+scp kps_localization       root@192.168.1.99:/root/.
+scp kps_mapserver   root@192.168.1.99:/root/.
+scp kps_data_server      root@192.168.1.99:/root/.
+scp kps_data_server      root@192.168.1.99:/root/kps_loc/.
+scp kps_core      root@192.168.1.99:/root/kps_loc/.
+scp kps_data_server      root@192.168.1.99:/root/kps_loc/.
+scp interprocess_laser      root@192.168.1.99:/root/kps_loc/.
+ls
+cd cfg/
+ls
+scp *.ini    root@192.168.1.99:/root/.
+cd ../../x64/
+ls
+cd Debug/
+ls
+cd map/
+ls
+scp 407.*    root@192.168.1.99:/root/kps_loc/map/.
+ssh root@192.168.1.99
+scp interprocess_laser      root@192.168.1.99:/root/kps_loc/.
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+cd C/N_KPS_Arm/build-ar
+make
+cd ../bin/arm/
+scp kps_core      root@192.168.1.99:/root/kps_loc/.
+scp kps_data_server       root@192.168.1.99:/root/kps_loc/.
+scp kps_localization        root@192.168.1.99:/root/kps_loc/.
+scp kps_mapserver         root@192.168.1.99:/root/kps_loc/.
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+scp      root@192.168.1.99:/root/kps_loc/map_log/3.proto .
+scp      root@192.168.1.99:/root/kps_loc/pro_log/3.proto .
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+scp kps_mapserver         root@192.168.1.99:/root/kps_loc/.
+cd C/N_KPS_Arm/build-ar/
+make
+cd C/N_KPS_Arm/build-ar/
+make
+cd C/N_KPS_Arm/thirdparty/src/curl-7.66.0/
+ls
+./configure --enable-static --disable-shared --without-libidn --without-ssl --without-librtmp --without-gnutls --without-nss --without-libssh2 --without-zlib --without-winidn --disable-rtsp --disable-ldap --disable-ldaps --disable-ipv6 --prefix=/home/arm/C/N_KPS_Arm/thirdparty/x64
+make
+make install
+cd ../../
+\ls
+cd ../
+ls
+vi build_x64_sdk
+vi build_x64_sdk.sh 
+cd build-r/
+ls
+make
+cd C/N_KPS_Arm/build-r/
+make
+cd ..
+cd thirdparty/
+ls
+cd src/
+ls
+cd curl-7.66.0/
+ls
+make clean
+./configure --host=arm-cortexa9-linux-gnueabihf --enable-static --disable-shared --without-libidn --without-ssl --without-librtmp --without-gnutls --without-nss --without-libssh2 --without-zlib --without-winidn --disable-rtsp --disable-ldap --disable-ldaps --disable-ipv6 --prefix=/home/arm/C/N_KPS_Arm/thirdparty/arm/lib4418
+make
+make install
+cd 
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../thirdparty/x64/
+ls
+svnadd libcurl.a 
+svnadd
+svnadd libcurl.a 
+sudo apt-get install subversion
+svn add libcurl.a 
+cd ..
+cd arm/
+ls
+cd lib4418/
+ls
+cd lib/
+ls
+svn add libcurl.a 
+ping 192.168.1.118
+ssh root@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+ftp 192.168.1.99
+ping 192.168.1.99
+scp kps_data_server         root@192.168.1.99:/root/kps_loc/.
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+scp kps_data_server         root@192.168.1.99:/root/kps_loc/.
+scp kps_core          root@192.168.1.99:/root/kps_loc/.
+scp kps_localization    root@192.168.1.99:/root/kps_loc/.
+cd ../x
+cd ../x64/Debug/
+cd ..
+ls
+./test_md5 c2548b80b3debd559c94ddb2281acc3f
+cd C/N_KPS_Arm/bin/arm/
+ls
+scp kps_localization    root@192.168.1.99:/root/kps_loc/.
+scp kps_core          root@192.168.1.99:/root/kps_loc/.
+scp kps_data_server         root@192.168.1.99:/root/kps_loc/.
+ls
+ls map
+ftp 192.168.1.99
+ping 192.168.1.99
+scp map/.         root@192.168.1.99:/root/kps_loc/.
+scp ./map/.         root@192.168.1.99:/root/kps_loc/.
+cd map/
+scp .         root@192.168.1.99:/root/kps_loc/.
+scp 407.pgm        root@192.168.1.99:/root/kps_loc/.
+scp 407.yaml        root@192.168.1.99:/root/kps_loc/.
+cd ..
+ls
+cd cfg/
+ls
+vi config.ini 
+scp config.ini       root@192.168.1.99:/root/kps_loc/.
+cd ../bin/x64/
+ls
+./test_md5 8a70c319694fe2f4e8fa1ecfc3fd783d
+cd C/N_KPS_Arm/build-ar
+make
+cd C/N_KPS_Arm/build-sr
+cd C/N_KPS_Arm/build-ar
+make
+cd C/N_KPS_Arm/build-ar/
+make
+make install
+make
+make install
+cd
+cd N_Kunhou_Arm_sdk/
+ls
+./build_ARM_usr_sdk.sh 
+cd build-ar/
+make
+cd C/N_KPS_Arm/build-ar/
+make
+cd C/N_KPS_Arm/build-ar/
+make
+cd C/N_KPS_Arm/build-ar
+make
+cd C/N_KPS_Arm/build-ar
+make
+make install
+cd N_Kunhou_Arm_sdk/
+ls
+./build_ARM_usr_sdk.sh 
+cd build-ar/
+make
+cd C/N_KPS_Arm/build-ar
+make
+make install
+cd C/N_KPS_Arm/build-ar/
+make
+cd C/N_KPS_Arm/build-ar/
+make -je
+make -j2
+make
+make install
+cd 
+cd N_Kunhou_Arm_sdk/
+ls
+./build_ARM_usr_sdk.sh 
+cd build-ar/
+make -j2
+cd C/flirtlib-master/
+ls
+cat README 
+mkdir build-d
+cd build-d/
+cmake ..
+make
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j2 ../source
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j2 ..
+make
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j2 ..
+make
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j2 ..
+make
+cd ..
+ls
+ping www.baidu.com
+sudo apt-get update
+sudo apt-get install build-essential
+sudo apt-get install qt4-dev-tools qt4-doc qt4-qtconfig qt4-demos qt4-designer qtcreator
+cd C/flirtlib-master/
+cd build-d/
+cmake ..
+make
+sudo apt-get install qt4-dev-tools qt4-doc qt4-qtconfig qt4-demos qt4-designer qtcreator qt4-svg
+sudo apt-get install libqt4-svg
+cd ../../
+ls
+cd qwt-6.1.2/
+ls
+qmake
+make
+cd ..
+ls
+cd qwt-6.1.2/
+qmake qwt.pro
+make
+cd src/
+make
+cd .
+cd bin
+cd ..
+ls
+make
+which qmake
+cd C/flirtlib-master/
+ls
+make
+cd build-d/
+make
+cd C/N
+cd C/N_KPS_Arm/build-ar/
+cd ../
+cd bin/x64/
+./test_md5 
+cd C/N_KPS_Arm/source/sdk/include/protobuf_msg/
+ls
+./create.sh 
+protoc
+cat create.sh 
+./protoc --cpp_out=./ reflestor.proto
+ls
+./protoc --cpp_out=./reflestor.proto
+exit
+cd C/N_KPS_Arm/build-ar/
+make
+make -j2
+make
+make clear
+make clean
+make -j2
+make 
+arm-cortexa9-linux-gnueabihf-
+arm-cortexa9-linux-gnueabihf
+arm-cortexa9-linux-gnueabihf-gcc -v
+sudo apt-get install python
+sudo apt-get install python-pip
+./cmake-gui
+cd Downloads/cmake-3.16.2/
+ls
+cd bi
+ls
+cd ..
+cd cmake-3.16.2-Linux-x86_64/
+cd bin/
+ls
+./cmake-gui 
+cd
+vi .bashrc
+cd C/N_KPS_Arm/thirdparty/src/
+ls
+cd opencv
+ls
+cd buildArmX86/
+make -j4
+make install
+cd
+cd C/N_KPS_Arm/build-ar/make
+ls
+cd C/N_KPS_Arm/build-
+cd C/N_KPS_Arm/build-ar/
+ls
+make
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DARM=1 -DBUILD_SDK=1 -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 ../source
+make
+cd ..
+cd thirdparty/src/opencv/
+ls
+cd buildArmX86/
+ls
+cd install/
+ls
+cd lib/
+svn add libopencv_*.a
+cd ..
+cd share/OpenCV/
+ls
+cd 3rdparty/
+ls
+cd lib/
+ls
+svn add lib*.a
+cd C/N_KPS_Arm/thirdparty/src/opencv
+ls
+cd buildArmX86/
+ls
+cd 3rdparty/
+ls
+cd lib
+svn add lib*.a
+cd ../../
+ls
+cd lib/
+ls
+svn add libopencv_*.a
+cd C/N_KPS_Arm/build-ar
+make -j4
+make 
+cd C/N_KPS_Arm/build-ar/
+make -j4
+ping 192.168.1.99
+ping 192.168.1.88
+ping 192.168.1.100
+ping 192.168.1.99
+ping 192.168.0.99
+ping 192.168.1.88
+ping 192.168.1.90
+ping 192.168.1.80
+ping 192.168.1.88
+ping 192.168.1.99
+ping 192.168.0.99
+ping 192.168.1.99
+ping 192.168.0.90
+ping 192.168.1.99
+ping 192.168.0.88
+ping 192.168.0.90
+ping 192.168.0.99
+ping 192.168.0.80
+ping 192.168.0.88
+ping 192.168.0.90
+ping 192.168.0.99
+ping 192.168.0.88
+ping 192.168.1.99
+ssh 192.168.1.99
+ssh2 192.168.1.99
+ping 192.168.1.99
+ssh 
+ssh root@192.168.1.99
+ssh fi@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/bin/arm/
+ls
+ftp 192.168.1.99
+scp kps_core        pi@192.168.1.99:/root/kps_loc/.
+scp kps_core        pi@192.168.1.99:/pi/kps_nav2020/.
+scp kps_core        pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_core    pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_core    root@192.168.1.99:/home/pi/kps_nav2020/.
+scp cfg/config.ini     root@192.168.1.99:/home/pi/kps_nav2020/.
+scp cfg/config.ini     root@192.168.1.99:/home/pi/kps_nav2020/cfg/.
+scp cfg/cfg_path.ini      root@192.168.1.99:/home/pi/kps_nav2020/cfg/.
+scp kps_server_log      root@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_data_server       root@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_localization        root@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_loopclosure         root@192.168.1.99:/home/pi/kps_nav2020/.
+ls
+vi auto.sh
+ls
+vi auto.sh
+cd C/N_KPS_Arm/bin/arm/
+scp auto.sh         root@192.168.1.99:/home/pi/kps_nav2020/.
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh root@192.168.1.99
+ssh pi@192.168.1.99
+ping 192.168.1.100
+ping 192.168.1.99
+ssh pi@192.168.1.99
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+ssh pi@192.168.1.99
+ssh root@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+make\
+make
+cd ../bin/arm/
+scp kps_loopclosure         pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_localization          pi@192.168.1.99:/home/pi/kps_nav2020/.
+top
+ssh pi@192.168.1.99
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make -j2
+cd ../bin/arm/
+ls
+scp kps_localization          pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_core          pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_data_server           pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_server_log            pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_loopclosure             pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_core          pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_data_server           pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_loopclosure             pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_localization          pi@192.168.1.99:/home/pi/kps_nav2020/.
+cd C/N_KPS_Arm/build-ar/
+make
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make -j2
+cd ../bin/arm/
+scp kps_localization          pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_core          pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_data_server           pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_localization          pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_server_log           pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_loopclosure            pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_localization          pi@192.168.1.99:/home/pi/kps_nav2020/.
+cd C/N_KPS_Arm/build-r/
+make -j4
+cd ..
+rm -R build-r/
+mkdir build-r
+cd build-r
+#-DBUILD_GMAP=1
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DBUILD_SDK=1 -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 ../source
+cd ..
+cd build-ar/
+make
+cd C/N_KPS_Arm/build-r/
+make
+cd ..
+ls
+./build_ARM_sdk.sh 
+./build_x64_sdk.sh 
+cd build-r/
+make
+cd ../bin/x64/
+ls
+./kps_core 
+./kps_localization shared
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+ssh root@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+scp kps_localization          pi@192.168.1.99:/home/pi/kps_nav2020/.
+cd ../build-r/
+make
+ping 192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make -j2
+cd C/N_KPS_Arm/build-ar
+make -j4
+cd C/N_KPS_Arm/source/sdk/include/
+ls
+cd protobuf_msg/
+ls
+./create.sh 
+ls
+protoc --cpp_out=./ log_bag.proto
+cd C/N_KPS_Arm/build-ar/
+make -j2
+ssh root@192.168.1.99
+ls
+exit
+cd C/N_KPS_Arm
+ls
+cd bin/
+ls
+cd arm/
+ls
+scp kps_localization          pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_core           pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_data_server            pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_server_log             pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_mapserver             pi@192.168.1.99:/home/pi/kps_nav2020/.
+scp kps_core           pi@192.168.1.99:/home/pi/kps_nav/.
+scp kps_da           pi@192.168.1.99:/home/pi/kps_nav/.
+scp kps_data_server            pi@192.168.1.99:/home/pi/kps_nav/.
+scp kps_mapserver             pi@192.168.1.99:/home/pi/kps_nav/.
+scp kps_server_log              pi@192.168.1.99:/home/pi/kps_nav/.
+scp kps_localization               pi@192.168.1.99:/home/pi/kps_nav/.
+scp kps_data_server            pi@192.168.1.99:/home/pi/kps_nav/.
+ssh root@192.168.1.99
+ssh pi@192.168.1.99
+ssh root@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd ../../
+cd build-ar/
+make
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ifconfig
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+scp kps_localization             pi@192.168.1.99:/home/pi/kps_nav/.
+scp kps_mapserver              pi@192.168.1.99:/home/pi/kps_nav/.
+scp kps_localization             pi@192.168.1.99:/home/pi/kps_nav/.
+cd C/N_KPS_Arm/build-ar/
+make
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/make 
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+scp kps_localization             pi@192.168.1.99:/home/pi/kps_nav/.
+cd ../bin/arm/
+scp kps_localization             pi@192.168.1.99:/home/pi/kps_nav/
+cd ../bin/arm/
+scp kps_localization             pi@192.168.1.99:/home/pi/kps_nav/
+cd C/N_KPS_Arm/build-ar
+make
+vi .bashrc
+pwd
+cd /home/
+ls
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+scp test_neon             pi@192.168.1.99:/home/pi/kps_nav/
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+scp kps_localization              pi@192.168.1.99:/home/pi/kps_nav/
+cd C/N_KPS_Arm/build-ar/
+mke
+mak
+make
+cd ..
+ls
+sudo chmod 777 build_ARM_sdk.sh 
+./build_ARM_sdk.sh 
+cd build-ar/
+make -j2
+make 
+cd C/N_KPS_Arm/build-ar/
+make
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/bin/arm/
+scp test_gn_scan_match             pi@192.168.1.99:/home/pi/kps_nav/
+scp kps_lo             pi@192.168.1.99:/home/pi/kps_nav/
+scp kps_loc             pi@192.168.1.99:/home/pi/kps_nav/
+scp kps_localization              pi@192.168.1.99:/home/pi/kps_nav/
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make -j2
+cd ../bin/arm/
+ssh pi@192.168.1.99
+scp kps_localization              pi@192.168.1.99:/home/pi/kps_nav/
+scp kps_core               pi@192.168.1.99:/home/pi/kps_nav/
+scp kps_data_server                pi@192.168.1.99:/home/pi/kps_nav/
+scp kps_server_log                 pi@192.168.1.99:/home/pi/kps_nav/
+scp kps_mapserver                pi@192.168.1.99:/home/pi/kps_nav/
+cd C/N_KPS_Arm/build-ar/
+make -j2
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+scp kps_core              pi@192.168.1.99:/home/pi/kps_nav/
+scp kps_data_server               pi@192.168.1.99:/home/pi/kps_nav
+scp kps_server_log        pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization         pi@192.168.1.99:/home/pi/kps_nav
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+cd C/N_KPS_Arm/build-ar/
+make
+cd C/N_KPS_Arm/build-ar
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DBUILD_SDK=1 -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -DOPENCV=1 ../source
+make
+ping 192.168.1.228
+cd C/N_KPS_Arm/build-ar/
+make
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+scp kps_localization         pi@192.168.1.99:/home/pi/kps_nav
+scp kps_core         pi@192.168.1.99:/home/pi/kps_nav
+scp kps_data_server          pi@192.168.1.99:/home/pi/kps_nav
+scp kps_loopclosure           pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization         pi@192.168.1.99:/home/pi/kps_nav
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd ../bin/arm/
+scp kps_loopclosure          pi@192.168.1.99:/home/pi/kps_nav
+cd C/N_KPS_Arm/build-ar/
+make
+make clean
+make -j4
+make
+cd C/N_KPS_Arm/build-ar/
+make
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+scp kps_localization         pi@192.168.1.99:/home/pi/kps_nav
+cd C/N_KPS_Arm/bin/arm/
+scp kps_localization         pi@192.168.1.99:/home/pi/kps_nav
+scp kps_core         pi@192.168.1.99:/home/pi/kps_nav
+scp kps_data_server          pi@192.168.1.99:/home/pi/kps_nav
+scp kps_loopclosure           pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization            pi@192.168.1.99:/home/pi/kps_nav
+cd ../../build-ar/
+make
+cd C/N_KPS_Arm/build-ar/
+make -j2
+scp kps_localization            pi@192.168.1.99:/home/pi/kps_nav
+scp kps_core            pi@192.168.1.99:/home/pi/kps_nav
+cd ../bin/arm/
+scp kps_core            pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization            pi@192.168.1.99
+scp kps_localization            pi@192.168.1.99:/home/pi/kps_nav
+scp kps_data_server             pi@192.168.1.99:/home/pi/kps_nav
+scp kps_loopclosure              pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization            pi@192.168.1.99:/home/pi/kps_nav
+scp kps_loopclosure              pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization            pi@192.168.1.99:/home/pi/kps_nav
+scp kps_loopclosure              pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization            pi@192.168.1.99:/home/pi/kps_nav
+scp kps_loopclosure              pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization            pi@192.168.1.99:/home/pi/kps_nav
+scp kps_loopclosure              pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization            pi@192.168.1.99:/home/pi/kps_nav
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+sudo init 0
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make -j2
+cd ../bin/arm/
+scp kps_localization            pi@192.168.1.99:/home/pi/kps_nav
+scp kps_core            pi@192.168.1.99:/home/pi/kps_nav
+scp kps_data_server             pi@192.168.1.99:/home/pi/kps_nav
+scp kps_loopclosure              pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization            pi@192.168.1.99:/home/pi/kps_nav
+cd C/N_KPS_Arm/build-ar/
+make -je
+make -j2
+cd C/N_KPS_Arm/build-ar/
+make -j2
+ssh pi@192.168.1.99
+ssh root@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+scp kps_core             pi@192.168.1.99:/home/pi/kps_nav
+scp test_shared_msg             pi@192.168.1.99:/home/pi/kps_nav
+cmake
+cmake -v
+cmake -version
+cd C/N_KPS_Arm/build-ar/make
+cd C/N_KPS_Arm/build-ar/
+make -j2
+make clear
+make clean
+cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=release -DARM=1 -DBUILD_SDK=1 -DOPENCV=1 -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 ../source
+make -j2
+make
+cd C/N_KPS_Arm/build-ar
+make
+sudo init 0
+ssh pi@192.168.1.99
+ssh root@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make -j2
+cd ../bin/arm/
+ls
+ping 192.168.1.99
+ping 192.168.1.100
+scp kps_core              pi@192.168.1.99:/home/pi/kps_nav
+scp kps_data_server               pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization               pi@192.168.1.99:/home/pi/kps_nav
+scp cfg/kps_config.cfg             pi@192.168.1.99:/home/pi/kps_nav/cfg/.
+scp kps_core              pi@192.168.1.99:/home/pi/kps_nav
+scp kps_data_server               pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization                pi@192.168.1.99:/home/pi/kps_nav
+cd C/N_KPS_Arm/bin/arm/
+ls
+cat cfg/kps_config.cfg 
+scp cfg/kps_config.cfg             pi@192.168.1.99:/home/pi/kps_nav/cfg/.
+scp kps_core              pi@192.168.1.99:/home/pi/kps_nav
+scp cfg/kps_config.cfg             pi@192.168.1.99:/home/pi/kps_nav/cfg/.
+scp kps_core              pi@192.168.1.99:/home/pi/kps_nav
+scp kps_data_server               pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization                pi@192.168.1.99:/home/pi/kps_nav
+scp kps_loopclosure                 pi@192.168.1.99:/home/pi/kps_nav
+exit
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd ../../
+cd build-ar/
+make
+cd C/N_KPS_Arm/build-ar/
+make -j2
+cd C/N_KPS_Arm/build-ar/
+make
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make -je
+make -j2
+cd ../bin/arm/
+scp kps_loopclosure                 pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization                 pi@192.168.1.99:/home/pi/kps_nav
+scp kps_core                  pi@192.168.1.99:/home/pi/kps_nav
+scp kps_data_server                   pi@192.168.1.99:/home/pi/kps_nav
+cd ../x64/Release/
+ls
+cd cfg/
+scp cfg/kps_config.cfg             pi@192.168.1.99:/home/pi/kps_nav/cfg/.
+cd ..
+scp cfg/kps_config.cfg             pi@192.168.1.99:/home/pi/kps_nav/cfg/.
+cd C/N_KPS_Arm/build-ar/
+make -j2
+cd ../bin/arm/
+ssh pi@192.168.1.99
+scp kps_core                  pi@192.168.1.99:/home/pi/kps_nav
+scp kps_data_server                   pi@192.168.1.99:/home/pi/kps_nav
+scp kps_localization                 pi@192.168.1.99:/home/pi/kps_nav
+scp kps_loopclosure                  pi@192.168.1.99:/home/pi/kps_nav
+scp cfg/kps_config.cfg             pi@192.168.1.99:/home/pi/kps_nav/cfg/.
+vi cfg/kps_config.cfg 
+scp              pi@192.168.1.99:/home/pi/kps_nav/cfg/kps_config.cfg cfg/.
+vi cfg/kps_config.cfg 
+scp              pi@192.168.1.99:/home/pi/kps_nav/cfg/kps_config.cfg cfg/.
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/source/sdk/include/
+ls
+cd protobuf_msg/
+ls
+./create.sh 
+df
+ssh pi@192.168.1.99
+ifconfig
+exit
+ssh root@192.168.1.99
+ssh fa@192.168.1.99
+ssh root@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+ssh pi@192.168.1.99
+cd C/N_KPS_Arm/build-ar/
+make
+cd ../bin/arm/
+ls
+scp              pi@192.168.1.99:/home/pi/kps_nav/cfg/kps_config.cfg cfg/.
+scp    ./cfg/kps_config.cfg           pi@192.168.1.99:/home/pi/kps_nav/cfg/kps_config.cfg 
+scp   kps_core         pi@192.168.1.99:/home/pi/kps_nav/.
+scp   kps_data_server          pi@192.168.1.99:/home/pi/kps_nav/.
+scp   kps_localization           pi@192.168.1.99:/home/pi/kps_nav/.
+scp    ./cfg/kps_config.cfg           pi@192.168.1.99:/home/pi/kps_nav/cfg/kps_config.cfg 
+scp   kps_data_server          pi@192.168.1.99:/home/pi/kps_nav/.
+cd C/N_KPS_Arm/build-ar/
+make -j2
+make 

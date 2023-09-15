@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package KPS;
+
+import "base.proto";
+import "cargo_type.proto";
+
+message mp_cargo
+{       
+  required mp_item_base base = 1;
+
+  required mp_cargo_type cargo_type = 2;
+ 
+
+}

@@ -1,0 +1,24 @@
+syntax = "proto2";
+
+package KPS;
+
+message mp_map_data
+{
+required uint32 gx = 1;
+required uint32 gy = 2;
+required uint32 value = 3;     
+}
+
+message mp_map
+{
+
+required string map_name = 1;
+required uint32 origin_gx = 2;
+required uint32 origin_gy = 3;
+required float origin_wx = 4;
+required float origin_wy = 5;
+required float resolution = 6;
+repeated mp_map_data data = 7;
+
+
+}

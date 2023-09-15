@@ -1,0 +1,85 @@
+syntax = "proto2";
+
+message GMotorSet{
+	optional double speed = 1;
+	optional int32 id = 2;
+}
+
+message GRobotSpeed
+{
+	enum ControlMode { 
+		//���Ʒ�ʽΪ���ƺ��ٶȻ��Ƿֱ���Ƶ�������ٶ�
+		COMBINE = 1;
+		SEPARATELY = 2;
+		BOTH = 3;
+	}
+	optional ControlMode mode = 1;
+	optional double vx = 2; //���ٶȿ���
+	optional double vy = 3;
+	optional double w = 4;
+	repeated GMotorSet motors = 5; //����ٶȿ���
+
+}
+message GRobotPWM {
+	optional int32 d1 = 1;
+	optional int32 d2 = 2;
+	optional int32 d3 = 3;
+	optional int32 d4 = 4;
+}
+message GRobotSpeedControl{
+	enum RobotSpeedControlType{
+		ROBOT_SPEED_CONTROL = 1;
+		ROBOT_SPEED_SET_LEVEL = 2;
+		ROBOT_SPEED_MOTOR_GUARD = 3; //����������൱�ڰ���ͣ
+		ROBOT_SPEED_GUARD_CLEAR = 4; //����������
+		ROBOT_PWM_CONTROL = 5; 	     //ռ�ձȿ���
+		ROBOT_SPEED_DISABLE = 6;
+	}
+	
+	optional RobotSpeedControlType type = 1 [default = ROBOT_SPEED_CONTROL];
+	optional GRobotSpeed speed = 2;
+	optional int32 level = 3[default = 1];
+	optional GRobotPWM pwm = 4;
+	optional int32 clean = 5;
+	optional string nodeName = 6;
+}
+
+
+message GOdometer
+{
+	enum OdometerMode { 
+	//��̼�Ϊ�����Ϣ�������úϳɣ����ǵ����������� Ϣ��ֱ����Դ�����̣�δ�ϳɣ�
+		COMBINE = 1;
+		SEPARATELY = 2;
+	}
+	optional OdometerMode mode = 1;
+	optional double x = 2; //������
+	optional double y = 3;
+	optional double angle = 4;
+	repeated GMotorSet motors = 5; //������
+}
+
+message GChassicData
+{
+	optional GOdometer odometer = 1;
+	optional GRobotSpeed speed = 2;
+	optional GRobotPWM pwm = 3;
+	optional double time_stamp = 4;
+}
+
+message GMotorDebugMessage{
+	required int32 id = 1;
+	optional double current = 2; //dian liu
+	optional double voltage = 3; //��ѹ
+	optional double targetVel = 4;
+	optional double actualVel = 5;
+	optional string description = 6; 
+	optional int32 errorType = 7;
+}
+
+message GChassicDebugMessage{
+	optional int32 errorType = 1;
+	optional string errorDesption = 2;
+	repeated GMotorDebugMessage motors = 3;
+
+}

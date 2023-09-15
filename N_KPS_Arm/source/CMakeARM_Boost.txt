@@ -1,0 +1,60 @@
+message("----------cross compile setting----------")
+INCLUDE(CMakeForceCompiler)
+ 
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}  -std=c++0x -fpic -Wl,-rpath=/root/lib")  
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x -fpic -Wl,-rpath=/root/lib")  
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x -fpic  -Wall -O2 -mfpu=neon -mfloat-abi=hard -ffast-math")
+#-mfloat-abi=hard -mfpu=vfp
+
+
+#set(CMAKE_C_COMPILER "arm-xilinx-linux-gnueabi-gcc" ${CMAKE_C_FLAGS})  
+#set(CMAKE_CXX_COMPILER "arm-xilinx-linux-gnueabi-g++" ${CMAKE_CXX_FLAGS})
+#CMAKE_FORCE_C_COMPILER(arm-linux-gnueabihf-gcc arm-linux-gnueabihf-gcc)
+#CMAKE_FORCE_CXX_COMPILER(arm-linux-gnueabihf-g++ arm-linux-gnueabihf-g++)
+CMAKE_FORCE_C_COMPILER(arm-cortexa9-linux-gnueabihf-gcc arm-cortexa9-linux-gnueabihf-gcc)
+CMAKE_FORCE_CXX_COMPILER(arm-cortexa9-linux-gnueabihf-g++ arm-cortexa9-linux-gnueabihf-g++)
+  
+#message(${CMAKE_C_FLAGS})
+#message(${CMAKE_CXX_FLAGS})
+message(${CMAKE_C_COMPILER})
+message(${CMAKE_CXX_COMPILER})
+
+message("CMAKE_C_FLAGS:")
+message("${CMAKE_C_FLAGS}")
+
+message("CMAKE_CXX_FLAGS:")
+message("${CMAKE_CXX_FLAGS}")
+
+SET(CMAKE_INSTALL_PREFIX "/home/arm/N_Kunhou_Arm_sdk")
+IF(BUILD_SDK)
+ELSE()
+link_directories("/home/arm/N_Kunhou_Arm_sdk/lib")
+ENDIF(BUILD_SDK)
+message(${CMAKE_INSTALL_PREFIX})
+
+#link thirdparty
+link_directories(${KPS_ARM_THIRD_PARTY_PATH}/arm/)
+
+message("----------use arm boost----------")
+
+SET(BOOST_ROOT "/home/arm/Downloads/boost_1_58_0")
+set(Boost_USE_STATIC_LIBS   ON)
+set(Boost_USE_MULTITHREADED ON)
+
+find_package(Boost 1.58.0 COMPONENTS thread date_time program_options filesystem system signals chrono REQUIRED)
+#find_package(Boost 1.54.0 COMPONENTS thread date_time program_options filesystem system signals REQUIRED)
+if(Boost_FOUND)
+  include_directories(${Boost_INCLUDE_DIRS})
+  link_directories(${Boost_LIBRARY_DIRS})
+  #message(${CMAKE_MODULE_PATH})
+  #message(${Boost_ROOT})
+  message(${Boost_INCLUDE_DIRS})
+  message(${Boost_LIBRARY_DIRS})
+  message(${Boost_LIBRARIES})
+  message("boost found")
+  
+else()
+  message("boost not found")
+endif()
+
+

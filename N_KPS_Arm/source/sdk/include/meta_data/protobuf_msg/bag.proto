@@ -1,0 +1,36 @@
+syntax = "proto2";
+
+package KPS;
+
+import "laser.proto";
+
+message mp_odom
+{
+
+required float x = 1;
+required float y = 2;
+required float th = 3;
+required float vx = 4;
+required float vy = 5;
+required float vw = 6;
+
+}
+
+message mp_pos
+{
+
+required float x = 1;
+required float y = 2;
+required float th = 3;
+
+}
+
+message mp_bag
+{
+required string robot_shape = 1;
+required mp_laser_para laser_para = 2;
+required mp_laser_data laser_data = 3;
+required mp_odom odom = 4;
+required mp_pos amcl_pos = 5;
+
+}

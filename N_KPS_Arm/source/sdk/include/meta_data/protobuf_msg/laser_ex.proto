@@ -1,0 +1,44 @@
+syntax = "proto2";
+
+package KPS;
+
+message mp_laser_ex_para
+{
+
+required string laser_ip = 1;
+required bool laser_reverse = 2;
+required float laser_start_angle = 3;
+required float laser_range_max = 4;
+required float laser_range_min = 5;
+required float laser_dx = 6;
+required float laser_dy = 7;
+required float laser_resolution = 8;
+required float laser_max_ray = 9;
+
+
+}
+
+message mp_laser_ex_data
+{
+
+required uint64 stamp = 1;
+required double time_stamp = 2;
+required float bean_dt = 3;
+required int32 used_ray = 4; 
+repeated float data = 5;
+repeated int32 intensities = 6;
+repeated int32 seg = 7;
+
+}
+
+message mp_laser_ref_data
+{
+required int32 used_ray = 1;
+repeated int32 id = 2;
+repeated float x = 3;
+repeated float y = 4; 
+ 
+}
+
+
+
