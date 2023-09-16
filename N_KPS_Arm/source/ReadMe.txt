@@ -9,7 +9,7 @@
 
 2. cmake project
    
-   decompress Kunhou_Arm.zip
+   decompress kps_nav-main.zip
    
    edit file "Kunhou_Arm/source/CMakeX64_Boost.txt" 
    replace the path>>link_directories("e:/Kunhou_Arm/lib")
