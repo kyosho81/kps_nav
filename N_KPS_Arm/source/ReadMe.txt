@@ -16,7 +16,7 @@
    replace the path>>set(BOOST_ROOT "e:/boost_1_58_0")
    replace the path>>set(BOOST_LIBRARYDIR "e:/boost_1_58_0/stage")
    
-   cd Kunhou_Arm
+   cd N_KPS_Arm
    
    mkdir build-d
    
@@ -27,5 +27,5 @@
 
 3 dump
 ulimit -c unlimited
-±àÒëµÄÊ±ºòÌí¼Ó-gÑ¡Ïî
-gdb [Ö´ĞĞ³ÌĞò] [coredumpÎÄ¼ş]
+ç¼–è¯‘çš„æ—¶å€™æ·»åŠ -gé€‰é¡¹
+gdb [æ‰§è¡Œç¨‹åº] [coredumpæ–‡ä»¶]
