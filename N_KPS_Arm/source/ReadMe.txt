@@ -11,8 +11,8 @@
    
    decompress kps_nav-main.zip
    
-   edit file "Kunhou_Arm/source/CMakeX64_Boost.txt" 
-   replace the path>>link_directories("e:/Kunhou_Arm/lib")
+   edit file "N_KPS_Arm/source/CMakeX64_Boost.txt" 
+   replace the path>>link_directories("e:/N_KPS_Arm/lib")
    replace the path>>set(BOOST_ROOT "e:/boost_1_58_0")
    replace the path>>set(BOOST_LIBRARYDIR "e:/boost_1_58_0/stage")
    
