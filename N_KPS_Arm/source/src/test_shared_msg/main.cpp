@@ -12,7 +12,7 @@
 
 // process A sub
 // std::string str_sub_msg = SUB_MSG_SH_POOL("odom",fnc); //sub a message name = "odom"  message type = "int"
-// END_MSG_SH_POOL(int,str_sub_msg);
+// END_MSG_SH_POOL(int,str_sub_msg);                      //end sub
 
 // process B pub
 // PUB_MSG_SH_POOL("odom", i );
