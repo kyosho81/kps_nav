@@ -1,6 +1,8 @@
 MIT License
 
-Copyright (c) 2005-2023 kyosho81-KPS  tgv1.taobao.com
+Copyright (c) 2005-2023 kyosho81
+
+KPS  tgv1.taobao.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
